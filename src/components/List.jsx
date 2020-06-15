@@ -8,7 +8,6 @@ List.propTypes = {
 };
 
 function List(props) {
-    //const WrapItem=withHighlight()
     return props.list.map(item => {
         let WrapItem=null;
         switch (item.type) {
